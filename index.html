@@ -10,7 +10,7 @@
             var email = document.getElementById("email").value;
             var pwd   = document.getElementById("password").value;
             if (email == "x@gmail.com" && pwd == "patata"){
-                alert("PERFECTOS");
+                window.location.href="cv.html";
             } else{
                 alert("IMPOSTOR");
             }    
@@ -20,8 +20,8 @@
 </head>
 <body>
     <form action="" method="">
-        <input type="email" name="" id="email">
-        <input type="password" name="" id="password">
+        <input type="email" name="" id="email" value="x@gmail.com">
+        <input type="password" name="" id="password" value="patata">
         <input type="button" value="Enviar" onclick="validar()">
     </form>
 </body>
