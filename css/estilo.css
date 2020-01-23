@@ -5,7 +5,7 @@ Selector de clase ( . nombreDeClase)
 Selector de identificador ( #id )
 */
 
-@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 * {
     font-family: 'Bangers';
@@ -16,13 +16,32 @@ body {
 }
 
 #CuadroPrincipal {
-    margin-left: 250px;
-    width: 40%;
+    margin: auto;
+    width: 20%;
     background-color: white;
     padding: 42px;
 }
 
 .botonazul {
-    background-color: turquoise;
+    background-color: blue;
     color: white;
+}
+
+#CuadroPrincipal p {
+    text-align: center;
+}
+
+.ancho100 {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.fondogris {
+    border-width: 1px;
+    background-color: rgb(228, 228, 228);
+}
+
+.textochico {
+    font-size: 0.6em;
 }
