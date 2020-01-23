@@ -1,0 +1,28 @@
+/*
+Selector universal (ttodos) *
+Selector de tipo (div, h1, input, h2, span, p, ....)
+Selector de clase ( . nombreDeClase)
+Selector de identificador ( #id )
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Bangers&display=swap');
+
+* {
+    font-family: 'Bangers';
+}
+
+body {
+    background-color: orange;
+}
+
+#CuadroPrincipal {
+    margin-left: 250px;
+    width: 40%;
+    background-color: white;
+    padding: 42px;
+}
+
+.botonazul {
+    background-color: turquoise;
+    color: white;
+}
